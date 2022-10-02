@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&family=Roboto+Slab:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/neurologija.css" />
+  </head>
+  <body>
+    <header>
+      <!-- TopBar -->
+      <div class="topbar">
+        <div class="topbar-content container">
+          <!-- TopBar Mobile -->
+          <div class="topbar-item">
+            <a href="mailto:medial@medial.rs"
+              ><img src="../icons/mail.svg" alt="" width="20px" height="auto"
+            /></a>
+          </div>
+          <div class="topbar-item">
+            <a href="tel:+381638838717"
+              ><img src="../icons/phone.svg" alt="" width="16px" height="auto"
+            /></a>
+          </div>
+          <!-- TopBar Mobile End -->
+          <!-- TopBar Desktop -->
+          <div class="topbar-item-desktop">
+            <img src="../icons/mail.svg" alt="" width="20px" height="auto" />
+            <a href="mailto:medial@medial.rs">medial@medial.rs</a>
+          </div>
+          <div class="topbar-item-desktop">
+            <img src="../icons/phone.svg" alt="" width="16px" height="auto" />
+            <a href="tel:+381638838717">+381 11 212 9414</a>
+          </div>
+          <!-- TopBar Desktop End -->
+        </div>
+      </div>
+      <!-- TopBar End -->
+      <!-- NavBar -->
+      <nav class="navbar">
+        <div class="navbar-content container">
+          <!-- Brand -->
+          <a href="../index.html" class="navbar-brand"
+            ><img
+              src="../img/logo.svg"
+              alt="Medial Group logo"
+              width="160px"
+              height="auto"
+          /></a>
+          <!-- Brand End -->
+          <!-- NavBar Mobile -->
+          <div class="navbar-mobile">
+            <ul>
+              <li class="navbar-mobile-link"><a href="#">naslovna</a></li>
+              <li class="navbar-mobile-link">
+                <a href="ponuda.html">ponuda</a>
+              </li>
+              <li class="navbar-mobile-link">
+                <a href="zastupnistva.html">zastupništva</a>
+              </li>
+              <li class="navbar-mobile-link">
+                <a href="o-nama.html">o nama</a>
+              </li>
+              <li class="navbar-mobile-link">
+                <a href="kontakt.html">kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <!-- NavBar Mobile End -->
+          <!-- NavBar Desktop -->
+          <div class="navbar-desktop">
+            <ul>
+              <li class="navbar-desktop-link">
+                <a href="../index.html">Naslovna</a>
+              </li>
+              <li class="navbar-desktop-link">
+                <div id="ponuda">
+                  <a href="#">Ponuda</a>
+                  <ul id="ponuda-list">
+                    <li>
+                      <div id="ponuda-neurologija">
+                        <a href="neurologija.html">Neurologija</a>
+                        <ul id="ponuda-neurologija-list">
+                          <li>
+                            <a href="neurologija.html#eeg">EEG</a>
+                          </li>
+                          <li>
+                            <a href="neurologija.html#emngep">EMNG i EP</a>
+                          </li>
+                          <li><a href="neurologija.html#tcd">TCD</a></li>
+                          <li><a href="neurologija.html#tms">TMS</a></li>
+                          <li><a href="neurologija.html#qst">QST</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="ponuda-kardiologija">
+                        <a href="kardiologija.html">Kardiologija</a>
+                        <ul id="ponuda-kardiologija-list">
+                          <li><a href="kardiologija.html#ekg">EKG</a></li>
+                          <li>
+                            <a href="kardiologija.html#holteri">Holteri</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="potrosni.html">Potrošni materijal</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navbar-desktop-link">
+                <a href="zastupnistva.html">Zastupništva</a>
+              </li>
+              <li class="navbar-desktop-link">
+                <a href="o-nama.html">O nama</a>
+              </li>
+              <li class="navbar-desktop-link">
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <!-- NavBar Desktop End -->
+          <!-- Toggle -->
+          <div class="toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <!-- Toggle End -->
+        </div>
+      </nav>
+      <!-- NavBar End -->
+    </header>
+    <!-- Header End -->
+    <!-- Intro -->
+    <section class="intro">
+      <div class="container">
+        <h1>Neurologija</h1>
+      </div>
+    </section>
+    <!-- Intro End -->
+    <!-- Main -->
+    <main class="main">
+      <div class="ponuda container">
+        <div class="ponuda-content">
+          <div class="ponuda-kategorije">
+            <div class="ponuda-kategorija">
+              <a href="#eeg"><h3>EEG</h3></a>
+              <h5>Elektroencefalografi</h5>
+              <br />
+              <ul>
+                <li><a href="#v32">Nicolet v32</a></li>
+                <li><a href="#v44">Nicolet v44</a></li>
+                <li><a href="#quantum">Natus Quantum</a></li>
+                <li><a href="#brainmonitor">Natus Brain Monitor</a></li>
+                <li><a href="#icu">ICU</a></li>
+                <li><a href="#emu40">EMU40EX</a></li>
+              </ul>
+            </div>
+
+            <div class="ponuda-kategorija">
+              <a href="#emngep"><h3>EMNG/EP</h3> </a>
+              <h5>Elektromioneurografi</h5>
+              <br />
+              <ul>
+                <li><a href="#edx">Nicolet EDX</a></li>
+                <li><a href="#ultrapro">UltraPro™ S100</a></li>
+              </ul>
+            </div>
+
+            <div class="ponuda-kategorija">
+              <a href="#tcd"><h3>TCD</h3></a>
+              <h5>Transkranijalni dopleri</h5>
+              <br />
+              <ul>
+                <li><a href="#multidopt">DWL MultiDop-T</a></li>
+                <li><a href="#multidopx">DWL MultiDop-X</a></li>
+                <li><a href="#dopplerboxx">DWL DopplerBox-X</a></li>
+              </ul>
+            </div>
+
+            <div class="ponuda-kategorija">
+              <a href="#tms"><h3>TMS</h3></a>
+              <h5>Magnetni stimulatori</h5>
+              <br />
+              <ul>
+                <li><a href="#bistim">Magstim Bistim</a></li>
+                <li><a href="#rapid">Magstim Rapid</a></li>
+              </ul>
+            </div>
+
+            <div class="ponuda-kategorija">
+              <a href="#qst"><h3>QST</h3></a>
+              <h5>Kvantitativna ispitivanja</h5>
+              <br />
+              <ul>
+                <li><a href="#algomed">Medoc Algomed</a></li>
+                <li><a href="#pathway">Medoc Pathway</a></li>
+                <li><a href="#tsa2">Medoc TSA2</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ponuda-uredjaji">
+            <div class="ponuda-uredjaj">
+              <span id="eeg"></span>
+              <h2>EEG - Elektroencefalografija</h2>
+              <span id="v32"></span>
+              <h3>Nicolet v32</h3>
+              <p>
+                Nicolet™ v32 je rutinski video EEG sistem koji nudi signal
+                visokog kvaliteta za nižu cenu. Pojačalo sa 32 EEG/poligrafska
+                kanala u potpunosti zadovoljava potrebe velikih neuroloških
+                centara, neuroloških ambulanti kao i privatnih klinika. Poseduje
+                zasebne ulaze za foto stimulator, SpO2 senzor i taster za
+                markiranje događaja od strane pacijenta.
+              </p>
+
+              <div class="uredjaj-images">
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/v32/v32-1.png"
+                />
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/v32/v32-2.png"
+                />
+              </div>
+              <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modalImage" />
+              </div>
+
+              <div class="uredjaj-links">
+                <div>
+                  <img
+                    src="../icons/pdf.svg"
+                    alt=""
+                    width="23px"
+                    height="23px"
+                  />
+                  <a href="../ponuda/neurologija/v32/V32fnl.pdf" target="_blank"
+                    >Brošura
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="ponuda-uredjaj">
+              <span id="v44"></span>
+              <h3>Nicolet v44</h3>
+              <p>
+                Nicolet™ v44 EEG pojačalo sa ugrađenih DC 12 analognih DC ulaza
+                visokog nivoa. Pojačalo naprednih karakteristika integrisano sa
+                aplikacionim softverom Nicolet Sleep za lako i efikasno
+                izvođenje studija spavanja.
+              </p>
+
+              <div class="uredjaj-images">
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/v44/v44-1.png"
+                />
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/v44/v44-2.png"
+                />
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/v44/v44-3.png"
+                />
+              </div>
+              <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modalImage" />
+              </div>
+
+              <div class="uredjaj-links">
+                <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+                <a href="../ponuda/neurologija/v44/v44.pdf" target="_blank"
+                  >Brošura</a
+                >
+                <br />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="ponuda-uredjaj">
+              <span id="quantum"></span>
+              <h3>Natus Quantum</h3>
+              <p>
+                Ovaj jedinstveni kompaktni paket ima sve. Dizajniran posebno da
+                zadovolji raznovrsne potrebe današnjih modernih jedinica za
+                epilepsiju i istraživačkih centara, Quantum omogućava klinički
+                EEG, dugoročno praćenje skalpa i intrakranijalne epilepsije i
+                istraživanje i sve to uz najveću stopu uzorkovanja i izvanredan
+                kvalitet signala.
+              </p>
+
+              <div class="uredjaj-images">
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/quantum/quantum.png"
+                />
+              </div>
+              <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modalImage" />
+              </div>
+
+              <div class="uredjaj-links">
+                <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+                <a
+                  href="../ponuda/neurologija/quantum/quantum.pdf"
+                  target="_blank"
+                  >Brošura</a
+                >
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="ponuda-uredjaj">
+              <span id="brainmonitor"></span>
+              <h3>Natus Brain Monitor</h3>
+              <p>
+                Natus&#174; Brain Monitor je napredan EEG siste za dugotrajno
+                praćenje kao i za studije intenzivne nege. Velika stopa
+                uzorkovanja, širi propusni opseg signala, dodatni programibilni
+                ulazi čine ga savršenim izborom za sva klinička ispitivanja
+                uključujući EEG, LTM i ICU. Natus&#174; Brain Monitor nudi 64
+                referentna kanala i za intrakranijalne EEG studije.
+              </p>
+
+              <div class="uredjaj-images">
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/brainmonitor/brainmonitor.png"
+                />
+              </div>
+              <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modalImage" />
+              </div>
+
+              <div class="uredjaj-links">
+                <div>
+                  <img
+                    src="../icons/pdf.svg"
+                    alt=""
+                    width="23px"
+                    height="23px"
+                  />
+                  <a
+                    href="../ponuda/neurologija/brainmonitor/brainmonitor-2.pdf"
+                    target="_blank"
+                    >Brošura</a
+                  >
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="ponuda-uredjaj">
+              <span id="icu"></span>
+              <h3>ICU Nicolet/NeuroWorks</h3>
+              <p>
+                Nicolet Monitor je vodeće EEG rešenje za jedinice intenzivne
+                nege za kontinuirano praćenje EEG moždane aktivnosti i drugih
+                fizioloških parametri kod akutnih bolesnika. Karakteristike
+                Nicolet monitora omogućavaju snimanje od prevremeno rođenih
+                novorođenčadi do odraslih. Potpuno integrisan video, integrisan
+                otkrivanje napada i šiljaka, analiza potiskivanja i sveobuhvatna
+                biblioteka trendova čine ovaj sistem idealnim za jedinice
+                intenzivne nege.
+              </p>
+
+              <div class="uredjaj-images">
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/icu/icu.png"
+                />
+              </div>
+              <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modalImage" />
+              </div>
+
+              <div class="uredjaj-links">
+                <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+                <a href="../ponuda/neurologija/icu/icu.pdf" target="_blank"
+                  >Brošura</a
+                >
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="ponuda-uredjaj">
+              <span id="emu40"></span>
+              <h3>Natus&#174; EMU40EX</h3>
+              <p>
+                Natus&#174; EMU40 je napredan bežični EEG sistem koji omogućava
+                video EEG praćenje čak i kada se pacijent isključi sa glavne
+                jedinice. Bežično povezivanje proširenog dometa ne utiče
+                kvalitet podataka sa svojom frekvencijom uzorkovanja od 1 kHz.
+                Dizajniran posebno za jedinice za praćenje epilepsije, EMU40 se
+                takođe može koristiti za klinički EEG i studije spavanja. Nudi
+                40 kanala naizmenične struje koji omogućavaju potpuno
+                postavljanje 10-20 elektroda. Može se pričvrstiti na zid ili
+                montirati na kolica, a njegove jedinstvene opcije brzog
+                odvajanja omogućavaju lako i bezbedno pomeranje jedinice.
+              </p>
+
+              <div class="uredjaj-images">
+                <img
+                  class="ImgThumbnail"
+                  src="../ponuda/neurologija/emu/emu40.png"
+                />
+              </div>
+              <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modalImage" />
+              </div>
+
+              <div class="uredjaj-links">
+                <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+                <a href="../ponuda/neurologija/emu/emu40.pdf" target="_blank"
+                  >Brošura</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <span id="emngep"></span>
+          <h2>EMNG/EP - Elektromioneurografija i evocirani potencijali</h2>
+          <div class="ponuda-uredjaj">
+            <span id="edx"></span>
+            <h3>Nicolet EDX</h3>
+            <p>
+              Synergy EDX pruža pun spektar elektrodijagnostičkih ispitivanja sa
+              obnovljenim istraživanjem kliničkih karakteristika. Hardver
+              sledeće generacije nastavlja dinamičnu istoriju visokokvalitetnih
+              performansi. Ovaj objedinjeni multimodalni hardverski sistem
+              karakteriše intuitivna, ergonomska platforma koja postavlja nove
+              standarde za izvođenje studija nervne provodljivosti (NCS),
+              elektromiografije (EMG) i testiranja izazvanog potencijala (EP) i
+              intraoperativnog monitoringa (IOM). NCS i EMG signali daju
+              efikasne preglede tako što prikupljaju manje tragova za dobijanje
+              odgovarajućih podataka za interpretaciju, što skraćuje vreme
+              testiranja i pomaže u smanjenju nelagodnosti kod pacijenata.
+              Nicolet EDX takođe pruža opcionu fleksibilnost koja odgovara
+              različitim konfiguracijama merenja.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/edx/edx-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/edx/edx-2.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/edx/edx-3.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/edx/edx-4.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a href="../ponuda/neurologija/edx/edx.pdf" target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="ponuda-uredjaj">
+            <span id="ultrapro"></span>
+            <h3>UltraPro™ S100</h3>
+            <p>
+              Natus&#174; Synergy UltraPro™ S100 EMG / NCS / EP sistem je
+              visokokvalitetni sve-u-jednom elektrodijagnostički sistem sa
+              namenskim kontrolama, integrisanim stimulatorima i izuzetnim
+              kvalitetom signala. UltraPro™ S100 olakšava dijagnozu višestrukih
+              neuromuskularnih poremećaja uključujući sindrom karpalnog tunela,
+              mijasteniju gravis i ALS. Natus&#174; UltraPro™ S100 pokreće
+              Viking&#174; ili Synergy softver i koristi samo 3 kabla za
+              jednostavnu instalaciju. Natus&#174; kao svetski lider u
+              elektrodijagnostičkim sistemima nastavlja razvijanje Natus&#174;
+              Synergy UltraPro™ S100 sistema, pružajući najbolju pouzdanost i
+              performanse.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/ultrapro/ultrapro-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/ultrapro/ultrapro-2.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a
+                href="../ponuda/neurologija/ultrapro/ultrapro-1.pdf"
+                target="_blank"
+                >Brosura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <span id="tcd"></span>
+          <h2>TCD - Transkranijalni dopler</h2>
+          <div class="ponuda-uredjaj">
+            <span id="multidopt"></span>
+            <h3>DWL MultiDop-T</h3>
+            <p>
+              Multi-Dop T je DVL Dopler je sistem sa inovativnom tehnologijom,
+              ergonomskog i kompaktnog dizajna. Kao rezultat njegovog
+              intuitivnog koncepta rada, sveobuhvatni opseg performansi se može
+              koristiti na brz i bezbedan način i u svakoj situaciji
+              zahvaljujući ekranu osetljivom na dodir sa funkcijom tableta ili
+              odvojivoj bežičnoj tastaturi. Multi-Dop T se koristi za širok
+              spektar procesa od rutinske dijagnostike i kontinuiranog praćenja
+              sve do otkrivanja i diferencijacije embolije. Dodatni softverski
+              moduli za funkcionalne testove, kao što su CO2/VMR ili Evoke Flov
+              za sprovođenje pregleda cerebralne autoregulacije ili potpuno
+              integrisan CO2 modul. DVL Dopler tehnologija sa vrhunskim
+              kvalitetom signala i slike, uključujući Dopler M-mod.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopt/multidopt-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopt/multidopt-2.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopt/multidopt-3.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a
+                href="../ponuda/neurologija/multidopt/multidopt.pdf"
+                target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="ponuda-uredjaj">
+            <span id="multidopx"></span>
+            <h3>DWL MultiDop-X</h3>
+            <p>
+              Potpuno podesivi monitor od 22” kao i ergonomska sistemska kolica
+              sa kokpitom koji se može proširiti i daljinskim upravljačem sa
+              ekranom osetljivim na dodir koji se slobodno može programirati
+              omogućavaju brzo i intuitivno manipulisanje MultiDopX sistemom.
+              Opcija potpuno integrisanog CO2 modula olakšava pouzdanu procenu
+              cerebralne autoregulacije.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopx/multidopx-4.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopx/multidopx-3.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopx/multidopx-2.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/multidopx/multidopx-1.jpg"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a
+                href="../ponuda/neurologija/multidopx/multidopx.pdf"
+                target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="ponuda-uredjaj">
+            <span id="dopplerboxx"></span>
+            <h3>DWL DopplerBox-X</h3>
+            <p>
+              Odličan kvalitet signala ovog digitalnog sistema, izvanredan
+              kvalitet slike HD rezolucije i Dopler M-režim omogućavaju brzo
+              otkrivanje krvnih sudova, kao i precizno akustičko zračenje i
+              tačnu dijagnozu. Informacije o intenzitetu, smeru protoka i dubini
+              se prikazuju u realnom vremenu sa do 9 prozora Doplerovog spektra
+              dostupnih za različite dubine. U kombinaciji sa sondama od 2 i 4
+              MHz, Doppler-BoxX Ks1 otvara sve mogućnosti za ispitivanje
+              poremećaja cerebralne cirkulacije i pouzdano pomaže u dijagnostici
+              i terapiji vaskularnih anomalija, stenoza i okluzija. U
+              kombinaciji sa sondom od 8 MHz, uređaj pruža jeftinu dijagnostičku
+              proceduru za bolesti i poremećaje perifernog vaskularnog sistema.
+              Sonda od 16 MHz omogućava sprovođenje intraoperativnih pregleda
+              direktno na krvnim sudovima. Ova metoda omogućava hirurgu da
+              kontroliše kvalitet intraoperativnih klipova posle operacija
+              aneurizme.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/dopplerbox/dopplerbox.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a
+                href="../ponuda/neurologija/dopplerbox/doplerbox.pdf"
+                target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <span id="tms"></span>
+          <h2>TMS - Transkranijalna magnetna stimulacija</h2>
+          <div class="ponuda-uredjaj">
+            <span id="bistim"></span>
+            <h3>Magstim Bistim</h3>
+            <p>
+              Magstim&#174; BiStim² je pogodan za kortikalnu i za perifernu
+              stimulaciju, što korisniku omogućava da isporuči precizne pod- i
+              supra-pragove kondicioniranja i test impulsa sa mogućnošću
+              povezivanja dva pojedinačna kalema za interhemisfernu stimulaciju.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/bistim/bistim-2.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/bistim/bistim-3.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a href="../ponuda/neurologija/rapid/rapid.pdf" target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="ponuda-uredjaj">
+            <span id="rapid"></span>
+            <h3>Magstim Rapid</h3>
+            <p>
+              Magstim&#174; je 1993 godine razvio prvi repetitivni TMS
+              stimulator, nazvan Rapid, koji je evoluirao i proširio se u
+              asortiman Magstim Rapid² familije stimulatora. Ovi stimulatori
+              isporučuju dvofazne impulse, sa mogućnostima pojedinačnih impulsa,
+              ponavljajućih impulsa i theta burst stimulacije (TBS). Brzi
+              stimulatori su bili prvi stimulatori na kojima je ispitivan
+              povremeni i kontinuirani TBS preko ljudskog korteksa.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/rapid/rapid-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/rapid/rapid-2.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/rapid/rapid-3.jpg"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a href="../ponuda/neurologija/rapid/rapid.pdf" target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <span id="qst"></span>
+          <h2>QST - Kvantitativno senzorno testiranje</h2>
+          <div class="ponuda-uredjaj">
+            <span id="algomed"></span>
+            <h3>Medoc Algomed</h3>
+            <p>
+              Medoc AlgoMed, digitalni algometar, omogućava korisniku da izvrši
+              različite paradigme testiranja pritiska koje se mogu koristiti za
+              širok spektar mera bola pod pritiskom, kao što su prag bola
+              pritiska, tolerancija bola pod pritiskom, vremensko sumiranje (TS)
+              i CPM (uslovna modulacija bola) takođe se naziva DNIC (Diffuse
+              Nokious Inhibitori Control).
+            </p>
+            <p>
+              Zahvaljujući Medoc-ovom softveru, lekari su u mogućnosti da prate
+              test dok primaju vizuelne i zvučne povratne informacije u realnom
+              vremenu na svom računaru. AlgoMed-ova ergonomska ručka omogućava
+              operateru da lako uhvati Algometar i primeni ugrađeni pritisak.
+              Softver omogućava lako upravljanje pacijentima, programima i
+              rezultatima testova. AlgoMed softver nudi izbor lokacije tela, a
+              dodatne lokacije tela mogu biti personalizovane u softveru.
+              Rezultati mogu biti prikazani u prilagodljivim izveštajima u boji
+              ili izvezeni u Ekcel radi dalje analize.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/algomed/algomed-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/algomed/algomed-2.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/algomed/algomed-3.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a
+                href="../ponuda/neurologija/algomed/algomed.pdf"
+                target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="ponuda-uredjaj">
+            <span id="pathway"></span>
+            <h3>Medoc Pathway</h3>
+            <p>
+              Pathway - Pain & Sensori Evaluation Sistem uvodi revolucionarnu
+              novu tehnologiju i mogućnosti u oblasti objektivnog izazvanog
+              potencijala bola. Ova rešenja imaju modularni dizajn koji se može
+              prilagoditi specifičnim potrebama i protokolima i nudi laku
+              mogućnost nadogradnje.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/pathway/pathway-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/pathway/pathway-2.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a
+                href="../ponuda/neurologija/pathway/pathway.pdf"
+                target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="ponuda-uredjaj">
+            <span id="tsa2"></span>
+            <h3>Medoc TSA 2</h3>
+            <p>
+              TSA 2 NeuroSensori Analizer je precizan, kompjuterski kontrolisan
+              uređaj sposoban da generiše i dokumentuje odgovor na visoko
+              ponovljive toplotne i vibracione stimuluse, kao što su toplota,
+              hladnoća, bol izazvan toplotom, bol izazvan hladnoćom ili
+              vibracija. TSA 2 pruža kvantitativnu procenu funkcije senzornih
+              nerava malog kalibra (A-Delta i C-vlakna), kao i za A-Beta vlakna
+              velikog kalibra.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/tsa2/tsa2-1.jpg"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/neurologija/tsa2/tsa2-2.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a href="../ponuda/neurologija/tsa2/tsa2.pdf" target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+        </div>
+      </div>
+    </main>
+    <!-- Main End -->
+    <!-- Back -->
+    <div class="back"></div>
+    <!-- Back End -->
+    <button
+      id="backtop"
+      title="Pocetak strane"
+      onclick="topFunction()"
+    ></button>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-top container">
+        <div class="footer-top-item">
+          <p>Linkovi</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li><a href="../index.html">Naslovna</a></li>
+            <li><a href="ponuda.html">Ponuda</a></li>
+            <li><a href="zastupnistva.html">Zastupništva</a></li>
+            <li><a href="o-nama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-top-item">
+          <p>Ponuda</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li><a href="ponuda.html#neurologija">Neurologija</a></li>
+            <li>
+              <a href="ponuda.html#kardiologija">Kardiologija</a>
+            </li>
+            <li>
+              <a href="ponuda.html#potrosni">Potrošni materijal</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- <div class="footer-top-item">
+          <p>Credits</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li>
+              <a
+                href="https://unsplash.com/@ibrahimboran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                >Ibrahim Boran</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://unsplash.com/@jairlazarofuentes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                >Jair Lázaro</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://unsplash.com/es/@testalizeme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                >Testalize.me</a
+              >
+            </li>
+          </ul>
+        </div> -->
+
+        <div class="footer-top-item">
+          <p>Kontakt</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li>Bulevar Arsenija Čarnojevića 74/2</li>
+            <li>11000 Beograd, Srbija</li>
+            <li>tel: +381 11 212 9414</li>
+            <li>pon-pet, 07:30-15:30</li>
+            <li>email: medial@medial.rs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2022 Medial Group d.o.o</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- JavaScript -->
+    <script src="../scripts/toggle.js"></script>
+    <script src="../scripts/modal.js"></script>
+    <script src="../scripts/backtop.js"></script>
+  </body>
+</html>

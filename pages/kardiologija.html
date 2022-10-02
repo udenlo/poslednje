@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&family=Roboto+Slab:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/kardiologija.css" />
+  </head>
+  <body>
+    <header>
+      <!-- TopBar -->
+      <div class="topbar">
+        <div class="topbar-content container">
+          <!-- TopBar Mobile -->
+          <div class="topbar-item">
+            <a href="mailto:medial@medial.rs"
+              ><img src="../icons/mail.svg" alt="" width="20px" height="auto"
+            /></a>
+          </div>
+          <div class="topbar-item">
+            <a href="tel:+381638838717"
+              ><img src="../icons/phone.svg" alt="" width="16px" height="auto"
+            /></a>
+          </div>
+          <!-- TopBar Mobile End -->
+          <!-- TopBar Desktop -->
+          <div class="topbar-item-desktop">
+            <img src="../icons/mail.svg" alt="" width="20px" height="auto" />
+            <a href="mailto:medial@medial.rs">medial@medial.rs</a>
+          </div>
+          <div class="topbar-item-desktop">
+            <img src="../icons/phone.svg" alt="" width="16px" height="auto" />
+            <a href="tel:+381638838717">+381 11 212 9414</a>
+          </div>
+          <!-- TopBar Desktop End -->
+        </div>
+      </div>
+      <!-- TopBar End -->
+      <!-- NavBar -->
+      <nav class="navbar">
+        <div class="navbar-content container">
+          <!-- Brand -->
+          <a href="../index.html" class="navbar-brand"
+            ><img
+              src="../img/logo.svg"
+              alt="Medial Group logo"
+              width="160px"
+              height="auto"
+          /></a>
+          <!-- Brand End -->
+          <!-- NavBar Mobile -->
+          <div class="navbar-mobile">
+            <ul>
+              <li class="navbar-mobile-link"><a href="#">naslovna</a></li>
+              <li class="navbar-mobile-link">
+                <a href="ponuda.html">ponuda</a>
+              </li>
+              <li class="navbar-mobile-link">
+                <a href="zastupnistva.html">zastupništva</a>
+              </li>
+              <li class="navbar-mobile-link">
+                <a href="o-nama.html">o nama</a>
+              </li>
+              <li class="navbar-mobile-link">
+                <a href="kontakt.html">kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <!-- NavBar Mobile End -->
+          <!-- NavBar Desktop -->
+          <div class="navbar-desktop">
+            <ul>
+              <li class="navbar-desktop-link">
+                <a href="../index.html">Naslovna</a>
+              </li>
+              <li class="navbar-desktop-link">
+                <div id="ponuda">
+                  <a href="#">Ponuda</a>
+                  <ul id="ponuda-list">
+                    <li>
+                      <div id="ponuda-neurologija">
+                        <a href="neurologija.html">Neurologija</a>
+                        <ul id="ponuda-neurologija-list">
+                          <li>
+                            <a href="neurologija.html#eeg">EEG</a>
+                          </li>
+                          <li>
+                            <a href="neurologija.html#emngep">EMNG/EP</a>
+                          </li>
+                          <li><a href="neurologija.html#tcd">TCD</a></li>
+                          <li><a href="neurologija.html#tms">TMS</a></li>
+                          <li><a href="neurologija.html#qst">QST</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="ponuda-kardiologija">
+                        <a href="kardiologija.html">Kardiologija</a>
+                        <ul id="ponuda-kardiologija-list">
+                          <li><a href="kardiologija.html#ekg">EKG</a></li>
+                          <li>
+                            <a href="kardiologija.html#holteri">Holteri</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="potrosni.html">Potrošni materijal</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navbar-desktop-link">
+                <a href="zastupnistva.html">Zastupništva</a>
+              </li>
+              <li class="navbar-desktop-link">
+                <a href="o-nama.html">O nama</a>
+              </li>
+              <li class="navbar-desktop-link">
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <!-- NavBar Desktop End -->
+          <!-- Toggle -->
+          <div class="toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <!-- Toggle End -->
+        </div>
+      </nav>
+      <!-- NavBar End -->
+    </header>
+    <!-- Header End -->
+    <!-- Intro -->
+    <section class="intro">
+      <div class="container">
+        <h1>Kardiologija</h1>
+      </div>
+    </section>
+    <!-- Intro End -->
+    <!-- Main -->
+    <main class="main">
+      <div class="ponuda container">
+        <div class="ponuda-content">
+          <div class="ponuda-kategorije">
+            <div class="ponuda-kategorija">
+              <a href="#ekg"><h3>EKG</h3></a>
+              <ul>
+                <li><a href="#eli230">Eli 230</a></li>
+              </ul>
+            </div>
+
+            <div class="ponuda-kategorija">
+              <a href="#holteri"><h3>Holteri</h3></a>
+              <ul>
+                <li><a href="#ambulo">Ambulo 2400</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <span id="ekg"></span>
+          <h2>EKG - Elektrokardiografija</h2>
+          <div class="ponuda-uredjaj">
+            <span id="eli230"></span>
+            <h3>ELI 230</h3>
+            <p>
+              Jednostavan 12-kanalni EKG uređaj bogat funkcijama, ELI 230 nudi
+              dragoceno rešenje sa mogućnostima kao što su kvalitet signala,
+              tačna i pouzdana interpretacija EKG-a i otisci u punoj veličini.
+              Izveštaji se mogu preneti na računar ili laptop preko USB kabla.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/kardiologija/eli230/eli230.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a href="../ponuda/kardiologija/eli230/eli230.pdf" target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+
+          <hr />
+
+          <span id="holteri"></span>
+          <h2>Holteri</h2>
+          <div class="ponuda-uredjaj">
+            <span id="ambulo"></span>
+            <h3>Ambulo 2400</h3>
+            <p>
+              Ambulo 2400 je 24-časovni ambulatorni sistem za praćenje krvnog
+              pritiska koji nudi najsavremenije inovacije, tačnost i pouzdanost
+              u radu. Opcija aktigrafije vrši automatsko određivanje ciklusa
+              spavanja/budnosti, smanjujući oslanjanje na dnevnike pacijenata i
+              omogućavajući sinhronizaciju studija kliničkih pregleda.
+            </p>
+
+            <div class="uredjaj-images">
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/kardiologija/ambulo/ambulo-1.png"
+              />
+              <img
+                class="ImgThumbnail"
+                src="../ponuda/kardiologija/ambulo/ambulo-2.png"
+              />
+            </div>
+            <div class="modal">
+              <span class="close">&times;</span>
+              <img class="modalImage" />
+            </div>
+
+            <div class="uredjaj-links">
+              <img src="../icons/pdf.svg" alt="" width="23px" height="23px" />
+              <a href="../ponuda/kardiologija/ambulo/ambulo.pdf" target="_blank"
+                >Brošura</a
+              >
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </main>
+    <!-- Main End -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-top container">
+        <div class="footer-top-item">
+          <p>Linkovi</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li><a href="../index.html">Naslovna</a></li>
+            <li><a href="ponuda.html">Ponuda</a></li>
+            <li><a href="zastupnistva.html">Zastupništva</a></li>
+            <li><a href="o-nama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-top-item">
+          <p>Ponuda</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li><a href="ponuda.html#neurologija">Neurologija</a></li>
+            <li>
+              <a href="ponuda.html#kardiologija">Kardiologija</a>
+            </li>
+            <li>
+              <a href="ponuda.html#potrosni">Potrošni materijal</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- <div class="footer-top-item">
+          <p>Credits</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li>
+              <a
+                href="https://unsplash.com/@ibrahimboran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                >Ibrahim Boran</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://unsplash.com/@jairlazarofuentes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                >Jair Lázaro</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://unsplash.com/es/@testalizeme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                >Testalize.me</a
+              >
+            </li>
+          </ul>
+        </div> -->
+
+        <div class="footer-top-item">
+          <p>Kontakt</p>
+          <hr class="footer-hr" />
+          <ul>
+            <li>Bulevar Arsenija Čarnojevića 74/2</li>
+            <li>11000 Beograd, Srbija</li>
+            <li>tel: +381 11 212 9414</li>
+            <li>pon-pet, 07:30-15:30</li>
+            <li>email: medial@medial.rs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2022 Medial Group d.o.o</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- JavaScript -->
+    <script src="../scripts/toggle.js"></script>
+    <script src="../scripts/modal.js"></script>
+  </body>
+</html>
