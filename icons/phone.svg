@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 11.879473 11.879476"
+   version="1.1"
+   sodipodi:docname="phone.svg"
+   inkscape:export-filename="icons/12/phone.svg"
+   inkscape:export-xdpi="9.6099997"
+   inkscape:export-ydpi="9.6099997"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   width="11.879473"
+   height="11.879476"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview436"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.109375"
+     inkscape:cx="64.57289"
+     inkscape:cy="64"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs429">
+    <style
+       id="style427">.cls-1{fill:#2d3e50;}</style>
+  </defs>
+  <title
+     id="title431">n</title>
+  <path
+     class="cls-1"
+     d="M 11.632938,9.0905074 9.4720424,7.5107803 A 0.60129634,0.60129634 0 0 0 8.695663,7.5673956 l -1.154477,1.1337658 -0.00393,0.00393 A 0.51249381,0.51249381 0 0 1 6.8165997,8.6970537 L 4.8209108,6.7013599 3.1824238,5.062872 a 0.51249381,0.51249381 0 0 1 -0.00804,-0.7206563 l 0.00393,-0.00393 1.1337658,-1.154477 A 0.60129634,0.60129634 0 0 0 4.3686972,2.4074294 L 2.7889653,0.24653427 A 0.60145481,0.60145481 0 0 0 1.8780995,0.17616396 L 1.0636773,0.99058618 Q 0.9865217,1.0677418 0.91633098,1.1507905 C 0.76684198,1.3274274 0.44321692,1.7235664 0.32016132,1.9784328 A 3.3225368,3.3225368 0 0 0 0.87132418,5.6444012 L 6.2350744,11.008151 a 3.3225368,3.3225368 0 0 0 3.6659679,0.551163 c 0.2548637,-0.123056 0.6510017,-0.446681 0.8276387,-0.59617 q 0.08305,-0.07019 0.160204,-0.147346 l 0.814422,-0.814422 a 0.60145481,0.60145481 0 0 0 -0.07037,-0.9108686 z"
+     id="path433"
+     style="stroke-width:0.0960412;fill:#ffffff" />
+  <metadata
+     id="metadata510">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>n</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

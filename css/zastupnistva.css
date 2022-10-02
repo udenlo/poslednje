@@ -1,0 +1,113 @@
+.intro {
+  margin-top: 110px;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(96, 137, 168, 0.5),
+      rgba(139, 174, 201, 0.5)
+    ),
+    url("../img/intro/img-4.jpg");
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(141, 162, 196, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(110, 134, 172, 0.877) 100%
+    ),
+    url("../img/intro/img-6.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+/* Intro End */
+.main {
+  padding: 10rem 0;
+}
+.zastupnistva-hr {
+  background-color: rgba(185, 185, 185, 0.75);
+  max-width: 55px;
+  height: 3px;
+  margin: auto;
+  margin-top: 3rem;
+}
+.zastupnistva > p:nth-child(1) {
+  text-align: center;
+  max-width: 60ch;
+  margin: auto;
+}
+.zastupnistva-grid {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8rem;
+}
+.zastupnistva-grid-item {
+  padding-top: 2rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.15);
+  justify-self: center;
+}
+.zastupnistva-grid-item > a:nth-child(1) {
+  text-align: center;
+  padding: 2rem 0;
+  -webkit-transition: al 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.zastupnistva-grid-item > a:nth-child(1):hover {
+  scale: 1.05;
+}
+.zastupnistva-grid-item > div:nth-child(2) {
+  /* color: white; */
+  /* background-color: var(--blue); */
+  font-size: 18px;
+  padding: 0 2rem 2rem;
+  min-height: 200px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.zastupnistva-grid-item a {
+  display: block;
+}
+
+/* Media Queries */
+@media screen and (min-width: 440px) {
+  .zastupnistva-grid-item {
+    margin: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .zastupnistva-grid-item {
+    margin: 0 8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .zastupnistva-grid-item {
+    margin: 0 10rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .zastupnistva-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+  .zastupnistva-grid-item {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .zastupnistva-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

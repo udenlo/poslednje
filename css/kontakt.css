@@ -1,0 +1,66 @@
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  margin-top: 110px;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(96, 137, 168, 0.5),
+      rgba(139, 174, 201, 0.5)
+    ),
+    url("../img/intro/img-4.jpg");
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(141, 162, 196, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(110, 134, 172, 0.877) 100%
+    ),
+    url("../img/intro/img-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+/* Intro End */
+
+/* Main */
+.main {
+  padding: 10rem 0;
+}
+.kontakt {
+  display: flex;
+  justify-content: space-between;
+}
+.kontakt-item {
+  line-height: 1.4;
+}
+.kontakt-item h5 {
+  margin-bottom: 1rem;
+}
+.kontakt-item p {
+  font-size: 20px;
+}
+.kontakt-hr {
+  height: 3px;
+  width: 44px;
+  background-color: rgba(185, 185, 185, 0.75);
+  margin-bottom: 1rem;
+}
+/* div.kontakt-item:nth-child(2) {
+  padding: 6rem 0;
+} */
+/* Main End */

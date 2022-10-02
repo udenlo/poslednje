@@ -1,0 +1,183 @@
+h2 {
+  padding: 7rem 0 1rem;
+  font-size: 2.5rem;
+}
+.title {
+  font-size: 3.5rem;
+}
+h3 {
+  color: var(--pink);
+}
+span {
+  padding: 9rem 0 2rem;
+}
+hr {
+  /* background-color: var(--pink); */
+  background-color: rgba(202, 202, 202, 0.75);
+  width: 55px;
+  height: 3px;
+  margin-bottom: 1rem;
+}
+.symbol {
+  font-size: 12px;
+}
+.intro {
+  margin-top: 110px;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(96, 137, 168, 0.5),
+      rgba(139, 174, 201, 0.5)
+    ),
+    url("../img/intro/img-4.jpg");
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(141, 162, 196, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(110, 134, 172, 0.877) 100%
+    ),
+    url("../img/kardiologija.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+/* Intro End */
+.main {
+  padding: 2rem 0 10rem;
+}
+.ponuda-kategorije {
+  display: grid;
+  /* grid-auto-columns: minmax(0, 1fr); */
+  padding: 3rem 0;
+  justify-content: space-between;
+}
+.ponuda-kategorija ul {
+  list-style: square;
+  padding-left: 1.25rem;
+}
+
+.ponuda-uredjaj {
+  max-width: 65ch;
+  padding: 5rem 0;
+}
+.ponuda-uredjaj h4 {
+  padding: 8rem 0 1rem;
+}
+.ponuda-uredjaj p {
+  text-align: justify;
+}
+.uredjaj-images {
+  padding: 2rem 0;
+}
+.uredjaj-links {
+  font-size: 18px;
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 0.25rem;
+}
+.uredjaj-links div {
+  display: flex;
+}
+.uredjaj-links a {
+  display: block;
+  height: 100%;
+}
+div.ponuda-uredjaj:nth-child(4) > div:nth-child(7),
+div.uredjaj-links:nth-child(9) {
+  flex-direction: column;
+}
+
+.potrosni-materijal {
+  font-size: 2.5rem;
+}
+/* Modal */
+.ImgThumbnail {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-height: 180px;
+  max-width: 120px;
+}
+/* .ImgThumbnail:nth-of-type(1) {
+  margin-left: 20%;
+} */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 115px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9); */
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.modalImage {
+  max-height: 600px;
+  width: auto;
+  margin: auto;
+  display: block;
+}
+.close {
+  position: absolute;
+  top: 35px;
+  right: 19%;
+  color: var(--purple);
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 0;
+}
+.close:hover,
+.close:focus {
+  color: var(--pink);
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (min-width: 576px) {
+  .ponuda-kategorije {
+    /* grid-auto-flow: column; */
+    grid-template-columns: 1fr 1fr;
+  }
+  .uredjaj-images img {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .ponuda-kategorije {
+    /* grid-auto-flow: column; */
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .uredjaj-images img {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 19px;
+  }
+  .ponuda-kategorije {
+    /* grid-auto-flow: column; */
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 5rem; */
+  }
+  .uredjaj-images img {
+    width: 15%;
+  }
+}

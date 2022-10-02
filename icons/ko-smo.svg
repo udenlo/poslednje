@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 23.890974 23.890976"
+   version="1.1"
+   sodipodi:docname="11016449961582988850.svg"
+   width="23.890974"
+   height="23.890976"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#2d3e50;}.cls-2{fill:#2e79bd;}</style>
+  </defs>
+  <title
+     id="title6">x</title>
+  <path
+     class="cls-1"
+     d="M 11.945473,0 A 11.945487,11.945487 0 1 0 23.890974,11.945472 11.959002,11.959002 0 0 0 11.945473,0 Z m 0,21.532352 a 9.5868676,9.5868676 0 1 1 9.58688,-9.58688 9.5977218,9.5977218 0 0 1 -9.58688,9.586882 z"
+     id="path8"
+     style="stroke-width:0.206157" />
+  <circle
+     class="cls-2"
+     cx="11.427689"
+     cy="6.8462391"
+     r="1.5968869"
+     id="circle10"
+     style="stroke-width:0.206157" />
+  <path
+     class="cls-2"
+     d="M 10.382097,9.874513 A 0.94937217,0.94937217 0 0 0 9.5985948,10.8094 v 0 a 0.94904026,0.94904026 0 0 0 0.9492772,0.949277 h 0.09408 v 5.258383 h -0.507844 a 0.8122818,0.8122818 0 0 0 -0.8122809,0.812281 v 0 a 0.8122818,0.8122818 0 0 0 0.8122809,0.812282 h 3.622751 a 0.8122818,0.8122818 0 0 0 0.812281,-0.812282 v 0 A 0.8122818,0.8122818 0 0 0 13.756859,17.01706 h -0.502314 v -6.71253 a 0.81966222,0.81966222 0 0 0 -0.97885,-0.8040673 c -0.819568,0.1622704 -1.861097,0.368337 -1.893598,0.3740503 z"
+     id="path12"
+     style="stroke-width:0.206157" />
+  <metadata
+     id="metadata121">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>x</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,257 @@
+.intro {
+  margin-top: 70px;
+  width: 100%;
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(141, 162, 196, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(110, 134, 172, 0.877) 100%
+    ),
+    url("../img/intro/img-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+}
+.intro h1 {
+  /* font-size: 4rem; */
+  font-size: clamp(1.5rem, 12vw, 3.75rem);
+  text-shadow: 1px 1px 2px black;
+}
+.intro .container {
+  text-align: center;
+  padding: 3rem 0;
+}
+/* Main */
+.main {
+  text-align: center;
+  padding: 10rem 0 3rem;
+}
+.main h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  /* color: var(--blue); */
+}
+.main h3 {
+  font-size: 2.25rem;
+}
+.main p {
+  margin: auto;
+  /* font-size: 18px; */
+  max-width: 75ch;
+}
+#ko-smo {
+  padding-top: 7rem;
+}
+.ko-smo {
+  padding-bottom: 8rem;
+}
+.sertifikat {
+  padding: 5rem 0;
+  color: white;
+  /* background-color: var(--blue); */
+  background-color: #606e85;
+  font-size: 20px;
+}
+.sertifikat .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.sertifikat-img {
+  margin: auto;
+  width: 100%;
+  padding: 2rem 0 1rem;
+  background-color: rgba(243, 243, 243, 0.75);
+}
+
+.ponuda {
+  width: 100%;
+  padding: 4rem 0 8rem;
+  background-color: rgba(243, 243, 243, 0.75);
+}
+.index-hr {
+  /* background-color: var(--pink); */
+  background-color: rgba(185, 185, 185, 0.75);
+  max-width: 55px;
+  height: 3px;
+  margin: auto;
+}
+.ponuda-content {
+  /* width: 94%; */
+  margin: auto;
+  /* text-align: center; */
+}
+.ponuda-items {
+  margin: 5rem auto;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.ponuda-items h3 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 2.5rem;
+  padding: 0 1rem;
+}
+.neurologija {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(0, 212, 255); */
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(9, 105, 153, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(2, 0, 36, 0.75) 100%
+    ),
+    url("../img/neurologija.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  /* border: 2px solid white; */
+  cursor: pointer;
+}
+.kardiologija {
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(0, 212, 255); */
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(9, 105, 153, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(2, 0, 36, 0.75) 100%
+    ),
+    url("../img/kardiologija.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  /* border: 2px solid white; */
+  cursor: pointer;
+}
+.potrosni-materijal {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(0, 212, 255); */
+  background: radial-gradient(
+      circle,
+      rgba(9, 105, 153, 0.1) 0%,
+      rgba(9, 105, 153, 0.5) 50%,
+      /* rgba(58, 58, 58, 0.25) 0%,
+      rgba(58, 58, 58, 0.1) 50%, */
+        rgba(2, 0, 36, 0.75) 100%
+    ),
+    url("../img/potrosni.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.35);
+  /* border: 2px solid white; */
+  cursor: pointer;
+}
+.neurologija:hover,
+.kardiologija:hover,
+.potrosni-materijal:hover {
+  transform: scale(1.01);
+  -webkit-transition: al 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.neurologija:active,
+.kardiologija:active,
+.potrosni-materijal:active {
+  transform: scale(1.01);
+  -webkit-transition: al 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.partneri {
+  padding: 8rem 0 5rem;
+}
+.partneri-items {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+}
+
+/* Main End */
+
+/* Media Queries */
+@media screen and (min-width: 576px) {
+  .ponuda-items {
+    width: 60%;
+  }
+  .sertifikat img {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .partneri-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .sertifikat img {
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .ponuda-items {
+    width: 90%;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sertifikat img {
+    width: 8%;
+  }
+  .ponuda-items {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .partneri-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .sertifikat img {
+    width: 2%;
+  }
+}
